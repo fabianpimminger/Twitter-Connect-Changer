@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Connect Changer",
+  "version": "1.0",
+  "description": "Changes the default destination of the Connect-Link from Mentions to Interactions",
+  "icons": { "128": "image.png" },
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*"],
+      "js": ["main.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

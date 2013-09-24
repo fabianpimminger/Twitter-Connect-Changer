@@ -1,0 +1,1 @@
+document.querySelector("li[data-global-action='connect'] a").href = "/i/connect";
